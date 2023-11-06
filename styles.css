@@ -92,7 +92,7 @@
     width: 1.25rem;
   }
   
-  .nav__toggle{
+  .nav__toggle{ 
     font-size: 1.25rem;
     cursor: pointer;
   }
@@ -259,8 +259,14 @@ img {
 /*sponsor*/
 
 .sponsor__logo{
-  padding: 30px;
-  padding-left: 250px;
+  padding-left: 0px;
+}
+
+.sponsor__footer{
+  padding-top: 50px;
+}
+.logos__img{
+  text-align: left;
 }
 
 /*gym_bg*/
@@ -268,7 +274,8 @@ img {
     position: relative;
     text-align: center;
     color: white;
-  }
+    overflow: hidden;
+}
 
   .centered {
     position: absolute;
@@ -420,4 +427,163 @@ img {
 #email{
   margin-right: 70%;
   padding-right: px;
+}
+
+.contact__mobile{
+  margin-bottom: 230px;
+}
+
+/*about*/
+
+.about_heading{
+  font-size: 40px;
+  font-family: var(--body-font);
+  font-weight: 400;
+  letter-spacing: 2.5px;
+  color: var(--first-color); 
+}
+
+.about__title{
+  font-family: var(--first-color-alt);
+  margin-bottom: 60px;
+  font-size: 25px;
+}
+
+.about__subtitle{
+  color: var(--first-color);
+  text-align: left;
+  margin-left: 40px;
+  font-size: 25px;
+  margin-top: 60px;
+}
+
+.about__description{
+  text-align: left;
+  margin-left: 40px;
+  font-size: 20px;
+  font-family: var(--first-color);
+}
+
+.diet__description{
+  margin-bottom: 60px;
+}
+/*my profile*/
+
+.card_profile {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: auto;
+  text-align: left;
+}
+
+.title_profile {
+  color: grey;
+  font-size: 18px;
+}
+
+.prof_anchor {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+.disp{
+  display: inline-flex;
+}
+
+.profile___text{
+  text-align: left;
+}
+
+h1.profile__fields{
+  display: inline-block;
+  text-align: left;
+  padding-left: 200px;
+  color: hsl(79, 67%, 52%);
+  font-size: 24px;
+}
+
+p.profile__stored{
+  display: inline;
+  font-size: 24px;
+
+}
+
+p.bmi__desc{
+  opacity: 0.6;
+  padding-left: 150px;
+}
+
+.profile_sponsor{
+  padding-top: 80px;
+}
+
+.profile__card{    
+    display: grid;
+    background-color: hsla(79, 6%, 64%, .07);
+    padding: 40px 40px 40px 40px;
+    border: 2px solid transparent;
+    transition: background .5s, border .4s;
+}
+
+.profile__card:hover{
+  background-color: hsl(79, 63%, 50%);
+  border: 2px solid var(--first-color-light);
+  color: black;
+  opacity: 1;
+}
+
+.profile__card:hover .program__shape{
+  background-color: var(--first-color-light);
+  color: black;
+}
+
+.profile__card:hover .profile__shape,
+.profile__card:hover .profile__fields{
+  color: var(--title-color-black)
+}
+
+.profile__card:hover .program__button{
+  opacity: 1;
+  color: black;
+}
+
+.card__size{
+  width: 1000px;
+}
+
+ .profile__shape{
+    width: 50px;
+    height: 50px;
+    background-color: var(--first-color)--first-color-gray;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    margin-bottom: 1rem;
+    transition: background .5s;
+  }
+
+
+.header_tabs{
+  margin-bottom: 100px;
+}
+
+/* signin signup card css using react*/
+
+.inputs{
+  margin-top: 55px;
+  display: flex;
+  flex-direction: column;
+  gap :25px;
+}
+.input{
+  display: flex;
+  align-items: center;
+  margin:auto;
+  width: 480px;
+  height: 80px;
+  background:white;
+  border-radius: 6px;
+}
+.input img{
+  margin :0px 30 px;
 }
