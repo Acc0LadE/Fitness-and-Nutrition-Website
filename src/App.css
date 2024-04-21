@@ -1,0 +1,13 @@
+.header{
+  width: 100%;
+  background-color: transparent;
+
+  top: 0;
+  left: 0;
+  z-index: var(--z-fixed);
+  transition: background .3s;
+  overflow-y: auto;
+}
+.content{
+  margin-top: 8%;
+}
