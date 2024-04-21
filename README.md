@@ -68,3 +68,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+# About the Website
+
+This website is a fitness workout planner along with a diet planner that allows us to create routines and schedules that a normal user can follow along to attain a healthier and happier lifestyle. We use frameworks like React, Express and MongoDB to store user information and routine data.
